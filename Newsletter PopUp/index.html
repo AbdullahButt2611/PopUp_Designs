@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Popup | upCoding</title>
+  </head>
+  <body>
+    <!-- Popup open button -->
+    <button class="popup-btn" onclick="openPopup()">Open Popup</button>
+
+    <!-- Popup start -->
+    <div class="popup">
+      <div class="popup-top">
+        <div class="email-icon">
+          <i class="fa-solid fa-envelope-open-text"></i>
+        </div>
+
+        <i id="close-icon" class="fa-solid fa-xmark" onclick="closePopup()"></i>
+
+        <h2>Stay Tuned</h2>
+
+        <p>Subscribe to our newsletter & stay updated!</p>
+
+        <p>Our newsletter is sent once a week,every monday</p>
+      </div>
+      <div class="popup-bottom">
+        <input type="email" name="" id="" placeholder="email@example.com" />
+
+        <button>
+          Subscribe Now!
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+    <!-- Popup end -->
+
+    <!-- JavaScript script -->
+    <script src="script.js"></script>
+  </body>
+</html>
